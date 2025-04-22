@@ -65,3 +65,5 @@ This project uses Terraform to provision a basic AWS environment including:
     ```
         
     
+## 📄 License
+This project is released under the MIT License.
