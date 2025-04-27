@@ -61,7 +61,7 @@ resource "aws_s3_bucket_policy" "public_policy" {
   bucket = aws_s3_bucket.static_site.id
   policy = data.aws_iam_policy_document.public_read.json
 
-    depends_on = [
+  depends_on = [
     aws_s3_bucket_public_access_block.public_access
   ]
 }
